@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+    <header>
+        <h1>Principal</h1>
+        <nav>
+            <a href="index.html">principal</a>
+            <a href="./pagina1.html"> projeto com cad – SEMAFORO SIMPLES</a>
+            <a href="./pagina2.html"> ARDUÍNO na prática – SEMAFORO SIMPLES</a>
+            <a href="./pagina3.html"> projeto com cad – SEMAFORO DUPLO</a>
+            <a href="./pagina4.html"> ARDUÍNO na prática – SEMAFORO DUPLO</a>
+            <a href="./pagina5.html"> Contador Tinkercad</a>
+            <a href="./pagina7.html">Contador Tinkercad Decrescemte</a>
+            <a href="./pagina6.html">Contador decrescente Semaforo</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="tweet">
+            <div class="tweet-header">
+           
+            </div>
+        </div>
+        <div class="tweet">
+            <div class="tweet-header">
+                <img src="perfil.jpg" alt="Perfil">
+                <h2>circuito do contador decrescente</h2>
+            </div>
+            <div class="tweet-body">
+              
+                <img src="circuito do contador decrescente.jpg">
+            </div>
+            <div class="tweet-footer">
+                20 Retweets - 15 Likes
+            </div>
+        </div>
+        <div class="tweet">
+            <div class="tweet-header">
+                <img src="perfil.jpg" alt="Perfil">
+                <h2>codigo c++</h2>
+            </div>
+            <div class="tweet-body">
+                // C++ code
+<br>//
+<br>int i = 0;
+<br>
+<br>void setup()
+<br>{
+<br>  pinMode(2, OUTPUT);
+<br>  pinMode(3, OUTPUT);
+<br>  pinMode(4, OUTPUT);
+<br>  pinMode(5, OUTPUT);
+<br>  pinMode(6, OUTPUT);
+<br>  pinMode(7, OUTPUT);
+<br>  pinMode(8, OUTPUT);
+<br>
+<br>  delay(4000); // Wait for 4000 millisecond(s)
+<br>  digitalWrite(2, HIGH);
+<br>  digitalWrite(3, HIGH);
+<br>  digitalWrite(4, HIGH);
+<br>  digitalWrite(5, HIGH);
+<br>  digitalWrite(6, LOW);
+<br>  digitalWrite(7, HIGH);
+<br>  digitalWrite(8, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(6, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(5, LOW);
+<br>  digitalWrite(6, LOW);
+<br>  digitalWrite(7, LOW);
+<br>  digitalWrite(8, LOW);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(3, LOW);
+<br>  digitalWrite(5, HIGH);
+<br>  digitalWrite(6, HIGH);
+<br>  digitalWrite(8, HIGH);
+<br>  digitalWrite(7, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(6, LOW);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(5, LOW);
+<br>  digitalWrite(2, LOW);
+<br>  digitalWrite(3, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(7, LOW);
+<br>  digitalWrite(2, HIGH);
+<br>  digitalWrite(5, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(4, LOW);
+<br>  digitalWrite(6, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(2, LOW);
+<br>  digitalWrite(6, LOW);
+<br>  digitalWrite(8, LOW);
+<br>  digitalWrite(5, LOW);
+<br>  digitalWrite(4, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>  digitalWrite(2, HIGH);
+<br>  digitalWrite(5, HIGH);
+<br>  digitalWrite(6, HIGH);
+<br>  digitalWrite(7, HIGH);
+<br>  delay(1000); // Wait for 1000 millisecond(s)
+<br>}
+<br>
+<br>void loop()
+<br>{
+<br>  delay(10); // Delay a little bit to improve simulation performance
+<br>}
+
+                
+           
+        </div>
+        
+        <button class="button">Tweetar</button>
+    </div>
+</body>
+</html>
